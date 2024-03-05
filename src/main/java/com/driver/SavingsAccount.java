@@ -36,7 +36,7 @@ public class SavingsAccount extends BankAccount{
         }
         else
         {
-            throw new Exception("Maximum Withdraw Limit Exceed");
+            throw new Exception("Maximum Withdraw Limit Exceeded");
         }
     }
 
